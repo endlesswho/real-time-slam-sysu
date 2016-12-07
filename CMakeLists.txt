@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(loam_velodyne)
 
 find_package(catkin REQUIRED COMPONENTS
+  octomap_msgs
   geometry_msgs
   nav_msgs
   sensor_msgs
